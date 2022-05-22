@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    "DejaVu Sans", Verdana, sans-serif;
+}
+i {
+  margin-right: 0.5em;
+  color: #575757;
+}
+h2,
+h3 {
+  margin-left: 1em;
+  color: #e49a2f;
+}
+article.page {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: wheat;
+  height: auto;
+}
+header {
+  padding: 0.25em;
+  background-color: #575757;
+  color: #f0ebeb;
+  text-align: center;
+}
+.teksti_playfair {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-size: 4em;
+  letter-spacing: 0.0625em;
+}
+/*nav muotoilut alku*/
+nav,
+footer {
+  height: 1.875em;
+  background-color: #e49a2f;
+  color: #f7f5ee;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e49a2f;
+}
+li {
+  display: inline-block;
+}
+li a {
+  display: block;
+  color: #f7f5ee;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 1.875em;
+}
+a:hover:not(.active) {
+  background-color: #c0832d;
+}
+.active {
+  background-color: #c0832d;
+}
+section {
+  background-color: #d8ccaf;
+  display: block;
+}
+/*nav muotoilut loppu*/
+img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/*content mutoilut alku*/
+section.content_left,
+section.content_right {
+  display: inline;
+  width: 40%;
+  background-color: #f7f5ee;
+  border: 0.0625em;
+  border-style: solid;
+  border-color: #ac9675;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.625em;
+  padding: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+section.content_left {
+  float: left;
+  margin-left: 4%;
+}
+section.content_right {
+  float: right;
+  margin-right: 4%;
+}
+.teksti_raleway {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+}
+/*content mutoilut loppu*/
+footer {
+  clear: both;
+  height: 10%;
+}
+#mail {
+  color: rgb(161, 75, 13);
+  background-color: #e49a2f;
+}
